@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E2179916BFDDE40041E969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E2179816BFDDE40041E969 /* Foundation.framework */; };
+		24E2179E16BFDDE40041E969 /* DCTValidationErrorDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */; };
+		24E217A016BFDDE40041E969 /* DCTValidationErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24E2179316BFDDE40041E969 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				24E2179E16BFDDE40041E969 /* DCTValidationErrorDescription.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTValidationErrorDescription.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E2179816BFDDE40041E969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24E2179C16BFDDE40041E969 /* DCTValidationErrorDescription-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTValidationErrorDescription-Prefix.pch"; sourceTree = "<group>"; };
+		24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTValidationErrorDescription.h; sourceTree = "<group>"; };
+		24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTValidationErrorDescription.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E2179216BFDDE40041E969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E2179916BFDDE40041E969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E2178C16BFDDE40041E969 = {
+			isa = PBXGroup;
+			children = (
+				24E2179A16BFDDE40041E969 /* DCTValidationErrorDescription */,
+				24E2179716BFDDE40041E969 /* Frameworks */,
+				24E2179616BFDDE40041E969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E2179616BFDDE40041E969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E2179716BFDDE40041E969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E2179816BFDDE40041E969 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24E2179A16BFDDE40041E969 /* DCTValidationErrorDescription */ = {
+			isa = PBXGroup;
+			children = (
+				24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */,
+				24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */,
+				24E2179B16BFDDE40041E969 /* Supporting Files */,
+			);
+			path = DCTValidationErrorDescription;
+			sourceTree = "<group>";
+		};
+		24E2179B16BFDDE40041E969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24E2179C16BFDDE40041E969 /* DCTValidationErrorDescription-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E2179416BFDDE40041E969 /* DCTValidationErrorDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E217A316BFDDE40041E969 /* Build configuration list for PBXNativeTarget "DCTValidationErrorDescription" */;
+			buildPhases = (
+				24E2179116BFDDE40041E969 /* Sources */,
+				24E2179216BFDDE40041E969 /* Frameworks */,
+				24E2179316BFDDE40041E969 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTValidationErrorDescription;
+			productName = DCTValidationErrorDescription;
+			productReference = 24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E2178D16BFDDE40041E969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24E2179016BFDDE40041E969 /* Build configuration list for PBXProject "DCTValidationErrorDescription" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24E2178C16BFDDE40041E969;
+			productRefGroup = 24E2179616BFDDE40041E969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E2179416BFDDE40041E969 /* DCTValidationErrorDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E2179116BFDDE40041E969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E217A016BFDDE40041E969 /* DCTValidationErrorDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24E217A116BFDDE40041E969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24E217A216BFDDE40041E969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E217A416BFDDE40041E969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DCTValidationErrorDescription.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTValidationErrorDescription/DCTValidationErrorDescription-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24E217A516BFDDE40041E969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DCTValidationErrorDescription.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTValidationErrorDescription/DCTValidationErrorDescription-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E2179016BFDDE40041E969 /* Build configuration list for PBXProject "DCTValidationErrorDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E217A116BFDDE40041E969 /* Debug */,
+				24E217A216BFDDE40041E969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E217A316BFDDE40041E969 /* Build configuration list for PBXNativeTarget "DCTValidationErrorDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E217A416BFDDE40041E969 /* Debug */,
+				24E217A516BFDDE40041E969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E2178D16BFDDE40041E969 /* Project object */;
+}
