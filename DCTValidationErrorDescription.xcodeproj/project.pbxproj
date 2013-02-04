@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTValidationErrorDescription.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2179816BFDDE40041E969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		24E2179C16BFDDE40041E969 /* DCTValidationErrorDescription-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTValidationErrorDescription-Prefix.pch"; sourceTree = "<group>"; };
 		24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTValidationErrorDescription.h; sourceTree = "<group>"; };
 		24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTValidationErrorDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,17 +74,8 @@
 			children = (
 				24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */,
 				24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */,
-				24E2179B16BFDDE40041E969 /* Supporting Files */,
 			);
 			path = DCTValidationErrorDescription;
-			sourceTree = "<group>";
-		};
-		24E2179B16BFDDE40041E969 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				24E2179C16BFDDE40041E969 /* DCTValidationErrorDescription-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +194,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/DCTValidationErrorDescription.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTValidationErrorDescription/DCTValidationErrorDescription-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -216,7 +205,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/DCTValidationErrorDescription.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTValidationErrorDescription/DCTValidationErrorDescription-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

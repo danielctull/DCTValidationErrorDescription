@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Daniel Tull. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
 @interface DCTValidationErrorDescription : NSObject
-
++ (NSString *)detailedDescriptionFromValidationError:(NSError *)error;
 @end
