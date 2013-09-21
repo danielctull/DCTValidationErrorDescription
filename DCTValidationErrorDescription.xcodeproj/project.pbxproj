@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		240BE44717ED80E3007AB802 /* Universal.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Universal.xcconfig; sourceTree = "<group>"; };
 		24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTValidationErrorDescription.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2179816BFDDE40041E969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTValidationErrorDescription.h; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		24E2178C16BFDDE40041E969 = {
 			isa = PBXGroup;
 			children = (
+				240BE44717ED80E3007AB802 /* Universal.xcconfig */,
 				24E2179A16BFDDE40041E969 /* DCTValidationErrorDescription */,
 				24E2179716BFDDE40041E969 /* Frameworks */,
 				24E2179616BFDDE40041E969 /* Products */,
@@ -193,25 +195,23 @@
 		};
 		24E217A416BFDDE40041E969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240BE44717ED80E3007AB802 /* Universal.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/DCTValidationErrorDescription.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
 		24E217A516BFDDE40041E969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240BE44717ED80E3007AB802 /* Universal.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/DCTValidationErrorDescription.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
