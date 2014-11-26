@@ -197,7 +197,7 @@
 		24E2178D16BFDDE40041E969 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Daniel Tull";
 				TargetAttributes = {
 					246E125819A93DBE00780D49 = {
@@ -324,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E124B19A93D6600780D49 /* Debug.xcconfig */;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -358,6 +359,7 @@
 				246E126B19A93DBE00780D49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		246E128419A93DD800780D49 /* Build configuration list for PBXNativeTarget "DCTValidationErrorDescription OS X" */ = {
 			isa = XCConfigurationList;
@@ -366,6 +368,7 @@
 				246E128619A93DD800780D49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24E2179016BFDDE40041E969 /* Build configuration list for PBXProject "DCTValidationErrorDescription" */ = {
 			isa = XCConfigurationList;
