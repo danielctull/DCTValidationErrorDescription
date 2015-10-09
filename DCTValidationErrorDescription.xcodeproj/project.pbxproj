@@ -11,6 +11,8 @@
 		246E128C19A93E5C00780D49 /* DCTValidationErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */; };
 		246E128D19A93E6500780D49 /* DCTValidationErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */; };
 		246E128E19A93E6700780D49 /* DCTValidationErrorDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2473F2FC1BC85EEF0075EA00 /* DCTValidationErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */; };
+		2473F2FF1BC85EEF0075EA00 /* DCTValidationErrorDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24E2179E16BFDDE40041E969 /* DCTValidationErrorDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */; };
 		24E217A016BFDDE40041E969 /* DCTValidationErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,10 @@
 		246E125919A93DBE00780D49 /* DCTValidationErrorDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTValidationErrorDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		246E127419A93DD800780D49 /* DCTValidationErrorDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTValidationErrorDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		246E128A19A93DF900780D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2473F3041BC85EEF0075EA00 /* DCTValidationErrorDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTValidationErrorDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2473F3051BC85F410075EA00 /* tvOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Application.xcconfig"; sourceTree = "<group>"; };
+		2473F3061BC85F410075EA00 /* tvOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Framework.xcconfig"; sourceTree = "<group>"; };
+		2473F3071BC85F410075EA00 /* tvOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Tests.xcconfig"; sourceTree = "<group>"; };
 		24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTValidationErrorDescription.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2179D16BFDDE40041E969 /* DCTValidationErrorDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTValidationErrorDescription.h; sourceTree = "<group>"; };
 		24E2179F16BFDDE40041E969 /* DCTValidationErrorDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTValidationErrorDescription.m; sourceTree = "<group>"; };
@@ -55,6 +61,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		246E127019A93DD800780D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2473F2FD1BC85EEF0075EA00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,6 +96,9 @@
 				246E125119A93D6600780D49 /* OS X Framework.xcconfig */,
 				246E125219A93D6600780D49 /* Release.xcconfig */,
 				246E125319A93D6600780D49 /* Shared.xcconfig */,
+				2473F3051BC85F410075EA00 /* tvOS Application.xcconfig */,
+				2473F3061BC85F410075EA00 /* tvOS Framework.xcconfig */,
+				2473F3071BC85F410075EA00 /* tvOS Tests.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -102,6 +118,7 @@
 				24E2179516BFDDE40041E969 /* libDCTValidationErrorDescription.a */,
 				246E125919A93DBE00780D49 /* DCTValidationErrorDescription.framework */,
 				246E127419A93DD800780D49 /* DCTValidationErrorDescription.framework */,
+				2473F3041BC85EEF0075EA00 /* DCTValidationErrorDescription.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +149,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				246E128B19A93E5600780D49 /* DCTValidationErrorDescription.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2473F2FE1BC85EEF0075EA00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2473F2FF1BC85EEF0075EA00 /* DCTValidationErrorDescription.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +197,24 @@
 			name = "DCTValidationErrorDescription OS X";
 			productName = "DCTValidationErrorDescription OS X";
 			productReference = 246E127419A93DD800780D49 /* DCTValidationErrorDescription.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2473F2FA1BC85EEF0075EA00 /* DCTValidationErrorDescription tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2473F3011BC85EEF0075EA00 /* Build configuration list for PBXNativeTarget "DCTValidationErrorDescription tvOS" */;
+			buildPhases = (
+				2473F2FB1BC85EEF0075EA00 /* Sources */,
+				2473F2FD1BC85EEF0075EA00 /* Frameworks */,
+				2473F2FE1BC85EEF0075EA00 /* Headers */,
+				2473F3001BC85EEF0075EA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DCTValidationErrorDescription tvOS";
+			productName = "DCTValidationErrorDescription iOS";
+			productReference = 2473F3041BC85EEF0075EA00 /* DCTValidationErrorDescription.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		24E2179416BFDDE40041E969 /* DCTValidationErrorDescription */ = {
@@ -223,6 +266,7 @@
 				24E2179416BFDDE40041E969 /* DCTValidationErrorDescription */,
 				246E125819A93DBE00780D49 /* DCTValidationErrorDescription iOS */,
 				246E127319A93DD800780D49 /* DCTValidationErrorDescription OS X */,
+				2473F2FA1BC85EEF0075EA00 /* DCTValidationErrorDescription tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +280,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		246E127219A93DD800780D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2473F3001BC85EEF0075EA00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,6 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				246E128C19A93E5C00780D49 /* DCTValidationErrorDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2473F2FB1BC85EEF0075EA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2473F2FC1BC85EEF0075EA00 /* DCTValidationErrorDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,11 +379,32 @@
 			};
 			name = Release;
 		};
+		2473F3021BC85EEF0075EA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2473F3061BC85F410075EA00 /* tvOS Framework.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				PRODUCT_NAME = DCTValidationErrorDescription;
+			};
+			name = Debug;
+		};
+		2473F3031BC85EEF0075EA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2473F3061BC85F410075EA00 /* tvOS Framework.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				PRODUCT_NAME = DCTValidationErrorDescription;
+			};
+			name = Release;
+		};
 		24E217A116BFDDE40041E969 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E124B19A93D6600780D49 /* Debug.xcconfig */;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Debug;
@@ -368,6 +448,15 @@
 			buildConfigurations = (
 				246E128519A93DD800780D49 /* Debug */,
 				246E128619A93DD800780D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2473F3011BC85EEF0075EA00 /* Build configuration list for PBXNativeTarget "DCTValidationErrorDescription tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2473F3021BC85EEF0075EA00 /* Debug */,
+				2473F3031BC85EEF0075EA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
