@@ -240,7 +240,7 @@
 		24E2178D16BFDDE40041E969 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Daniel Tull";
 				TargetAttributes = {
 					246E125819A93DBE00780D49 = {
@@ -335,7 +335,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E124E19A93D6600780D49 /* iOS Framework.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -347,7 +346,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E124E19A93D6600780D49 /* iOS Framework.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -359,7 +357,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E125119A93D6600780D49 /* OS X Framework.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -371,7 +368,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E125119A93D6600780D49 /* OS X Framework.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -383,7 +379,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2473F3061BC85F410075EA00 /* tvOS Framework.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				PRODUCT_NAME = DCTValidationErrorDescription;
@@ -394,7 +389,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2473F3061BC85F410075EA00 /* tvOS Framework.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				PRODUCT_NAME = DCTValidationErrorDescription;
@@ -405,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E124B19A93D6600780D49 /* Debug.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Debug;
@@ -413,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246E125219A93D6600780D49 /* Release.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Release;
