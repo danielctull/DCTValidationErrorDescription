@@ -35,9 +35,7 @@
 		246E127419A93DD800780D49 /* DCTValidationErrorDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTValidationErrorDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		246E128A19A93DF900780D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2473F3041BC85EEF0075EA00 /* DCTValidationErrorDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTValidationErrorDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24CCFF561D9EA57200228331 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		24CCFF571D9EA57200228331 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		24CCFF581D9EA57200228331 /* generate-version.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "generate-version.sh"; sourceTree = "<group>"; };
 		24CCFF5A1D9EA57200228331 /* iOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Application.xcconfig"; sourceTree = "<group>"; };
 		24CCFF5B1D9EA57200228331 /* iOS Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Bundle.xcconfig"; sourceTree = "<group>"; };
 		24CCFF5C1D9EA57200228331 /* iOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Extension.xcconfig"; sourceTree = "<group>"; };
@@ -53,12 +51,6 @@
 		24CCFF671D9EA57200228331 /* macOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS UI Tests.xcconfig"; sourceTree = "<group>"; };
 		24CCFF681D9EA57200228331 /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
 		24CCFF691D9EA57200228331 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		24CCFF6B1D9EA57200228331 /* Shared Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Application.xcconfig"; sourceTree = "<group>"; };
-		24CCFF6C1D9EA57200228331 /* Shared Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Extension.xcconfig"; sourceTree = "<group>"; };
-		24CCFF6D1D9EA57200228331 /* Shared Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Framework.xcconfig"; sourceTree = "<group>"; };
-		24CCFF6E1D9EA57200228331 /* Shared Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Tests.xcconfig"; sourceTree = "<group>"; };
-		24CCFF6F1D9EA57200228331 /* Shared UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared UI Tests.xcconfig"; sourceTree = "<group>"; };
-		24CCFF701D9EA57200228331 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 		24CCFF721D9EA57200228331 /* tvOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Application.xcconfig"; sourceTree = "<group>"; };
 		24CCFF731D9EA57200228331 /* tvOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Extension.xcconfig"; sourceTree = "<group>"; };
 		24CCFF741D9EA57200228331 /* tvOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Framework.xcconfig"; sourceTree = "<group>"; };
@@ -109,13 +101,10 @@
 		24CCFF551D9EA57200228331 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				24CCFF561D9EA57200228331 /* .gitignore */,
 				24CCFF571D9EA57200228331 /* Debug.xcconfig */,
-				24CCFF581D9EA57200228331 /* generate-version.sh */,
+				24CCFF691D9EA57200228331 /* Release.xcconfig */,
 				24CCFF591D9EA57200228331 /* iOS */,
 				24CCFF621D9EA57200228331 /* macOS */,
-				24CCFF691D9EA57200228331 /* Release.xcconfig */,
-				24CCFF6A1D9EA57200228331 /* Shared */,
 				24CCFF711D9EA57200228331 /* tvOS */,
 				24CCFF781D9EA57200228331 /* watchOS */,
 			);
@@ -148,19 +137,6 @@
 				24CCFF681D9EA57200228331 /* macOS.xcconfig */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		24CCFF6A1D9EA57200228331 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				24CCFF6B1D9EA57200228331 /* Shared Application.xcconfig */,
-				24CCFF6C1D9EA57200228331 /* Shared Extension.xcconfig */,
-				24CCFF6D1D9EA57200228331 /* Shared Framework.xcconfig */,
-				24CCFF6E1D9EA57200228331 /* Shared Tests.xcconfig */,
-				24CCFF6F1D9EA57200228331 /* Shared UI Tests.xcconfig */,
-				24CCFF701D9EA57200228331 /* Shared.xcconfig */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		24CCFF711D9EA57200228331 /* tvOS */ = {
